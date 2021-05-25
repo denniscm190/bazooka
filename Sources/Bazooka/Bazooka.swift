@@ -8,6 +8,7 @@
 import Foundation
 
 public class Bazooka {
+    public init () {}
     
     // Simple network request
     public func request<T: Decodable>(url: String, model: T.Type, completion: @escaping (_ result: T) -> Void) {
